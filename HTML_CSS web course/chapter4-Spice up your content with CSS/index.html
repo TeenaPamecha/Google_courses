@@ -1,0 +1,96 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!--Decide where to write CSS  1 way -- external css file added -->
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<!--Decide where to write CSS  2 way -- inline css in head -->
+<style type="text/css">
+.demo{
+color:red;
+background-color:yellow,
+bolder:1px solid back;
+}
+p{
+	line-height:1.4em;
+}
+b{
+	color:green;
+}
+.hex
+{
+	color:#1BDA76;
+	letter-spacing:0.2em
+}
+.rgb
+{
+	color:rgb(27,218,118);
+	font-family:serif;
+	word-spacing:1.1em;
+}
+.colorName
+{
+	color:LightGreen;
+	font-family:Gill sans monospace;
+}
+.hsl{color:hsl(149,88%,48%);}
+nav{
+background-color:black;
+color:red;
+padding:11px 8px 1px 8px;
+}
+ul > li{
+display:inline;
+margin-right:1em
+}
+a{
+font-weight:200;
+text-decoration:none;
+text-transform:uppercase;
+}
+a:hover{
+background-color:darkgray;
+color:white;
+padding:10px;
+}
+</style>
+
+</head>
+<body>
+<!--Decide where to write CSS ; Set your first colors; ---->
+<p class="demo">hi !! My Name is <b>Teena Pamecha.</b></p>
+<p style="color:blue">this is tag inline style.</p></br>
+<!-- Understand color theory
+color via hex format #1BDA76
+color via RGB value: rgb(27,218,118)
+color via color name : LightGreen
+color via HSL value: hsl(149,88%,48%)
+; set font;
+
+Control font sizes, line spacing, and word spacing using
+ pixles,
+ em, 
+ rem,
+ percentages
+ -->
+<p class="hex">color via hex format #1BDA76</p>
+<p class="rgb">color via RGB value: rgb(27,218,118)</p>
+<p class="colorName">color via color name : LightGreen</p>
+<p class="hsl">color via HSL value: hsl(149,88%,48%)</p>
+</br>
+<!-- Trick to your text--> 
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Serivce</a></li>
+<li><a href="#">Project</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Service</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+</body>
+</html>
